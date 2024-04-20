@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="ii.css">
+  </head>
+  <body>
+    <button class="btn btn-info btn-lg" id="oneback">Go back</button>
+
+    <input>
+    
+  </body>
+  <script>
+    let rr=document.getElementById("oneback");
+    
+    let rrk=document.createElement("div");
+    document.body.appendChild(rrk)
+    
+    rrk.classList.add("mu","container","row","col-lg-12");
+    function Onchange(num){
+      let inp=document.createElement("input");
+      rrk.appendChild(inp)
+    };
+    function kk(i){
+      let div1=document.createElement("div");
+      rrk.appendChild(div1);
+      div1.classList.add("mu","d-flex","flex-column")
+      
+      div1.style.backgroundColor="lightblue";
+      div1.size="cover";
+      
+      div1.style.width="40vw";
+      div1.style.margin="20px"
+      let head1=document.createElement("h1");
+      let imgele=document.createElement("img");
+      head1.textContent=i.name;
+      head1.classList.add("rrwq")
+      imgele.src=i.imageurl;
+      imgele.style.width="30vw";
+      imgele.style.height="30vh";
+      imgele.style.textAlign="center";
+      div1.appendChild(head1);
+      div1.appendChild(imgele);
+      let ar=document.createElement("button");
+      div1.appendChild(ar);
+      ar.classList.add("btn","btn-warning");
+      ar.textContent="Start Prediction";
+    
+      let tt=i.id
+      ar.id=tt;
+      let re=document.getElementById(ar);
+      ar.onclick=function(){
+        Onchange(10)
+      }
+
+      
+    }  
+    rr.onclick=function(){
+        window.history.back();
+    }
+    let list1=[{"name":"Heart Attack","imageurl":"https://tse2.mm.bing.net/th?id=OIP.f4ihEogJzs4rbdZ4LO0wzAHaD4&pid=Api&P=0&h=180","id":1},{"name":"Kidney Failure","imageurl":"https://tse3.mm.bing.net/th?id=OIP.uhcc6aIrr62XH-aFc5e5agHaFj&pid=Api&P=0&h=180",id:"2"},{"name":"Alzheimer’s disease,","imageurl":"https://tse4.mm.bing.net/th?id=OIP.yov1laG44jbVEJmqp0zdgQHaGI&pid=Api&P=0&h=180","id":3}]
+    for (let i in list1){
+      kk(list1[i])
+    }
+    
+
+
+
+
+  </script>
+</html>

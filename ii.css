@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+#nav1 {
+    color: black;
+
+}
+
+#nav2 {
+    color: black;
+}
+
+#nav3 {
+    color: black;
+}
+
+#nav4 {
+    color: black;
+}
+
+.ss {
+    height: 70px;
+    width: 90px;
+}
+
+.pk {
+    background-image: url("https://images.pexels.com/photos/2383010/pexels-photo-2383010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.dd {
+    color: white;
+    font-size: 70px;
+}
+
+.as {
+    color: white;
+    font-size: 40px;
+}
+
+.we {
+    color: white;
+    background-color: #d0b200;
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+    margin-right: 20px;
+}
+
+.menu {
+    background-color: #f0ffff;
+    padding: 30px;
+}
+
+.menuu {
+    color: #183b56;
+    padding: 10px;
+    font-family: italic;
+    text-align: center;
+}
+
+.aas {
+    background-color: white;
+
+    .qqq {
+        color: yellow;
+    }
+
+    .ss {
+        color: #323f4b;
+        font-family: "Roboto";
+        font-size: 20px;
+
+        font-weight: 500;
+        margin-top: 24px;
+    }
+
+}
+.ne{
+    margin: 20px;
+    
+}
+.rrwq{
+    color: white;
+    text-align: center;
+}
+
+
+.dfg {
+    border-radius: 15px;
+}
+
+.main {
+    background-color: lightblue;
+}
+
+.sub {
+    background-color: #F0F8FF;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.suu {
+    color: #183b56;
+}
+
+.main-1 {
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    color: #183b56;
+
+}
+
+.qw {
+    height: 70px;
+    width: 80px;
+    text-align: center;
+}
+
+h1 {
+    color: lightblue;
+}
+
+.df {
+    color: black;
+}
